@@ -224,6 +224,61 @@ public class Matrix {
     public boolean isSquare (int rowEff, int colEff) {
         return (rowEff==colEff);
     }
+    
+    public void inverseOBENoLine() {
+        int i,j,count,invers1;
+        Matrix arr = new Matrix(this.baris, this.kolom*2);
+        invers1=0;
+        
+        if (isSquare(this.baris,this.kolom)){
+            
+            for (i=0;i<this.baris;i++){
+                for (j=0;j<this.kolom;j++){
+                    arr.matrix[i][j]=this.matrix[i][j];
+                }
+            }
+
+            j=this.kolom;
+
+            for (i=0;i<this.baris;i++){
+                arr.matrix[i][j] = 1;
+                j++;
+            }
+
+            for (i=0;i<this.baris;i++){
+                for(j=this.kolom;j<(this.kolom*2);j++){
+                    if (arr.matrix[i][j]!=1){
+                        arr.matrix[i][j]=0;
+                    }
+                }
+            }
+
+            arr.gaussJordan();
+
+            for (i=0;i<this.baris;i++){
+                count = 0;
+                for(j=0;j<this.kolom;j++){
+                    if (arr.matrix[i][j]==0){
+                        count+=1;
+                    }
+                }
+                if (count==this.kolom){
+                    invers1+=1;
+                    break;
+                }
+            }
+
+            if (invers1==0){
+
+                for (i=0;i<this.baris;i++){
+                    for (j=0;j<this.kolom;j++){
+                        this.matrix[i][j] = arr.matrix[i][j+this.kolom];
+                    }
+                }
+            } 
+        }
+    }
+    
     public void inverseOBE() {
         int i,j,count,invers1;
         Matrix arr = new Matrix(this.baris, this.kolom*2);
@@ -354,6 +409,7 @@ public class Matrix {
             for (i = 0; i < this.baris; i++){
                 for (j = 0; j < this.kolom; j++){
                     System.out.printf("%.3f   ", this.matrix[i][j]);
+                    System.out.print("\n");
                 }
             }
         }
@@ -787,7 +843,7 @@ public class Matrix {
             hasilmatrix.matrix[i][0] = this.matrix [i][this.kolom-1];
         }
 
-        inversepembantu.inverseOBE();
+        inversepembantu.inverseOBENoLine();
         for (i=0;i<this.baris;i++){
             for (j=0;j<this.kolom-1;j++){
                 if(inversepembantu.matrix[i][j] == this.matrix[i][j]){
