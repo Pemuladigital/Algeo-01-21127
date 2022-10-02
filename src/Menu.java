@@ -175,7 +175,6 @@ class Menu {
                         String NamaFile = scan.next();
                         Matrix mat = new Matrix(Matrix.FileBaris(NamaFile), Matrix.FileKolom(NamaFile));
                         mat.ReadMatrixFile(NamaFile);
-                        mat.kaidahCramer();
                         String solusi = mat.kaidahCramer();
                         mat.konfirmasiOutputFile(1,0,solusi);
                     }
@@ -261,6 +260,7 @@ class Menu {
                         Matrix mat = new Matrix(Matrix.FileBaris(NamaFile), Matrix.FileKolom(NamaFile));
                         mat.ReadMatrixFile(NamaFile);
                         mat.inverseOBE();
+                        mat.printMatrix();
                         mat.konfirmasiOutputFile(3,0,null);
                     }
                     else if (carainput == 1) {
@@ -387,7 +387,6 @@ class Menu {
                     dummy.matrix[0][0] = 0;
                     System.out.println("Masukkan nilai nilai sampel: ");
                     m1.readMatrix();
-                    m1.regresiBerganda(dummy, 1);
                     String solution = m1.regresiBerganda(dummy,1);
                     m1.konfirmasiOutputFile(6,0,solution);
                 }
