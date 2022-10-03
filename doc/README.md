@@ -7,4 +7,4 @@ Untuk mengompilasi kode program, buka terminal pada komputer dan pergi ke direct
 
 # Cara Menjalankan Program
 
-Untuk menjalankan program, pertama kita run program file main.java sebagai menu utama menjalankan program.
+Untuk menjalankan program, pertama kita compile dan run program file main.java untujk menjalankan menu utama program.
