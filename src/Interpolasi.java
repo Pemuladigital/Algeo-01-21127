@@ -141,7 +141,7 @@ public class Interpolasi extends Matrix {
     public static int FileBarisInterpolasi (String NamaFile){
         int baris = -9999;
         try {
-            Scanner scanfile = new Scanner (new File(NamaFile));
+            Scanner scanfile = new Scanner (new File("../test/"+NamaFile));
             baris = 0;
             while (scanfile.hasNextLine()){
                 scanfile.nextLine();
@@ -158,7 +158,7 @@ public class Interpolasi extends Matrix {
     public static int FileKolomInterpolasi (String NamaFile){
         int kolom = -9999;
         try {
-            Scanner scan2 = new Scanner (new File(NamaFile));
+            Scanner scan2 = new Scanner (new File("../test/"+NamaFile));
             kolom = 1;
             scan2.nextLine();
             String baris1 = scan2.nextLine();
@@ -178,9 +178,9 @@ public class Interpolasi extends Matrix {
     public void ReadInterpolasiTitikFile (String NamaFile){
         int k;
         try {
-            File newFile = new File(NamaFile);
+            File newFile = new File("../test/"+NamaFile);
             Scanner scan2 = new Scanner(newFile);
-            for (k=0;k<FileBarisInterpolasi(NamaFile)+1;k++){
+            for (k=0;k<FileBarisInterpolasi("../test/"+NamaFile)+1;k++){
                 scan2.nextLine();
             }
             this.matrix[0][0] = scan2.nextDouble();
@@ -196,7 +196,7 @@ public class Interpolasi extends Matrix {
         try {
             i = 0;
             j = 0;
-            File newFile = new File(NamaFile);
+            File newFile = new File("../test/"+NamaFile);
             Scanner scan2 = new Scanner(newFile);
             scan2.nextLine();
             while (scan2.hasNextDouble() && i<this.baris){
