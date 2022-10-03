@@ -22,6 +22,8 @@ terdapat 7 pilihan. Masukkan input pilihan sesuai dengan pilihan yang diinginkan
 Saat memilih salah satu pilihan dalam menu utama, terdapat bagian pilihan input setelah pengguna menentukan pilihan mana beserta pilihan metode yang digunakan.
 Masukkan input terdiri dari 2 jenis yaitu keyboard, dan berupa file txt yang berisi data input yang ingin dimasukkan. Berikut contoh input menggunakan keyboard dan menggunakan file. Pertama, input menggunakan keyboard seperti contoh berikut.
 ![keyboard](https://user-images.githubusercontent.com/110378747/193582568-95a8a765-3e51-4a0f-9f02-52066b2f8aa3.PNG)
+
+
 Input dengan file cukup memberikan nama file dengan format <nama file>.txt seperti contoh berikut.
  ![text](https://user-images.githubusercontent.com/110378747/193582717-24132c03-3820-41c9-b4e2-277c9041e7d5.PNG)
 
