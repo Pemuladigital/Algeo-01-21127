@@ -175,28 +175,12 @@ public class Matrix {
                     if (!baris0Semua(j)) {
                         double pengurang = this.matrix[j][idxbukan0terbawah]/nilaibukan0terbawah;
                         this.minusBaris(pengurang, j, i);
-                        // this.printMatrix();
-                        // System.out.println("");
 
                     }
                 }
             }
         }
     }
-
-    /*public double determinanCramer(double[][] mat) {
-        // Prekondisi: belum dilakukan metode Gauss pada matriks dan matriks berukuran sama
-        // Determinan untuk menghitung matriks selain matriks asli
-        int i;
-        double hasil = 1;
-        this.gauss();
-        for(i = 0; i<this.kolom; i++) {
-            hasil *= mat[i][i];
-        }
-        hasil *= Math.pow(-1, this.count);
-        this.count = 0;
-        return hasil;
-    }*/
 
     public double determinan() {
         // Prekondisi: belum dilakukan metode Gauss pada matriks dan matriks berukuran sama
