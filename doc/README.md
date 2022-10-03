@@ -8,11 +8,14 @@ Compiler dapat diunduh melalui:
 - https://www.oracle.com/java/technologies/downloads/#java8
 - https://www.java.com/en/download/
 # Cara Kompilasi Kode Program
-Untuk mengompilasi kode program, buka terminal pada komputer dan pergi ke directory dan
+Untuk mengompilasi kode program, buka terminal pada komputer dan pergi ke directory src kemudian jalankan perintah berikut 
+
+![Compile](https://user-images.githubusercontent.com/88817627/193584242-07135275-8c20-4cbb-9ffc-68197b91dbd0.png)
 
 # Cara Menjalankan Program
-Untuk menjalankan program, pertama kita compile dan run program file main.java untuk menjalankan menu utama program.
+Untuk menjalankan program, pertama kita compile dan run program file main.java di folder bin untuk menjalankan menu utama program.
 
+![Run](https://user-images.githubusercontent.com/88817627/193584396-bab34e8a-134a-4f15-9ddb-01b9a67fceb5.png)
 
 # Cara Menggunakan Program 
 Setelah program di run dalam file main.javanya, akan muncul menu utama. Di dalam menu utama, 
