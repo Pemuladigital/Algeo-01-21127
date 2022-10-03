@@ -79,6 +79,7 @@ Berikut contoh hasil mengeksekusi interpolasi bikubik dan penyimpanan hasilnya.
  
  
 Isi file penyimpanan seperti berikut untuk contoh interpolasi bikubik. Setiap pilihan pada menu memiliki cara penyimpanan yang berbeda - beda sesuai output yang dihasilkannya.
+
 ![ssa](https://user-images.githubusercontent.com/110378747/193583171-fea7b2e5-3001-498a-9675-9dd1cfd60337.PNG)
 
 # Kontributor
