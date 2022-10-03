@@ -11,7 +11,7 @@ public class RegresiLinear extends Matrix {
     public static int FileBarisRegresi (String NamaFile){
         int baris = -9999;
         try {
-            Scanner scanfile = new Scanner (new File(NamaFile));
+            Scanner scanfile = new Scanner (new File("../test/"+NamaFile));
             baris = 0;
             while (scanfile.hasNextLine()){
                 scanfile.nextLine();
@@ -28,7 +28,7 @@ public class RegresiLinear extends Matrix {
     public static int FileKolomRegresi (String NamaFile){
         int kolom = -9999;
         try {
-            Scanner scan2 = new Scanner (new File(NamaFile));
+            Scanner scan2 = new Scanner (new File("../test/"+NamaFile));
             kolom = 1;
             scan2.nextLine();
             scan2.nextLine();
@@ -50,9 +50,9 @@ public class RegresiLinear extends Matrix {
         int kolom = -9999;
         int k;
         try {
-            Scanner scan2 = new Scanner (new File(NamaFile));
+            Scanner scan2 = new Scanner (new File("../test/"+NamaFile));
             kolom = 1;
-            for (k=0;k<FileBarisRegresi(NamaFile)+2;k++){
+            for (k=0;k<FileBarisRegresi("../test/"+NamaFile)+2;k++){
                 scan2.nextLine();
             }
             String baris1 = scan2.nextLine();
@@ -74,7 +74,7 @@ public class RegresiLinear extends Matrix {
         try {
             i = 0;
             j = 0;
-            File newFile = new File(NamaFile);
+            File newFile = new File("../test/"+NamaFile);
             Scanner scan2 = new Scanner(newFile);
             scan2.nextLine();
             scan2.nextLine();
@@ -98,9 +98,9 @@ public class RegresiLinear extends Matrix {
     public void ReadPengubahFile (String NamaFile){
         int k,j;
         try {
-            File newFile = new File(NamaFile);
+            File newFile = new File("../test/"+NamaFile);
             Scanner scan2 = new Scanner(newFile);
-            for (k=0;k<FileBarisRegresi(NamaFile)+2;k++){
+            for (k=0;k<FileBarisRegresi("../test/"+NamaFile)+2;k++){
                 scan2.nextLine();
             }
             j=0;
