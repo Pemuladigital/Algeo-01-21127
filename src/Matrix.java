@@ -931,7 +931,7 @@ public class Matrix {
     public static int FileBaris (String NamaFile){
         int baris = -9999;
         try {
-            Scanner scanfile = new Scanner (new File(NamaFile));
+            Scanner scanfile = new Scanner (new File("../test/"+NamaFile));
             baris = 0;
             while (scanfile.hasNextLine()){
                 scanfile.nextLine();
@@ -948,7 +948,7 @@ public class Matrix {
     public static int FileKolom (String NamaFile){
         int kolom = -9999;
         try {
-            Scanner scan2 = new Scanner (new File(NamaFile));
+            Scanner scan2 = new Scanner (new File("../test/"+NamaFile));
             kolom = 1;
             String baris1 = scan2.nextLine();
             for (int i=0;i<baris1.length();i++){
@@ -969,7 +969,7 @@ public class Matrix {
         try {
             i = 0;
             j = 0;
-            File newFile = new File(NamaFile);
+            File newFile = new File("../test/"+NamaFile);
             Scanner scan2 = new Scanner(newFile);
             while (scan2.hasNextDouble()){
                 this.matrix[i][j] = scan2.nextDouble();
@@ -994,7 +994,7 @@ public class Matrix {
         Scanner scan2 = new Scanner(System.in);
         String NamaFile = scan2.next();
         try {
-            FileWriter writer = new FileWriter(NamaFile+".txt");
+            FileWriter writer = new FileWriter("../test/"+NamaFile+".txt");
             writer.write("Matrix balikan : \n");
             for (int i = 0;i<this.baris;i++){
                 for (int j=0;j<this.kolom;j++){
@@ -1017,7 +1017,7 @@ public class Matrix {
         Scanner scan2 = new Scanner(System.in);
         String NamaFile = scan2.next();
         try {
-            FileWriter writer = new FileWriter(NamaFile+".txt");
+            FileWriter writer = new FileWriter("../test/"+NamaFile+".txt");
             writer.write(line);
             System.out.println("File disimpan di " + NamaFile + ".txt");
             writer.close();
@@ -1032,7 +1032,7 @@ public class Matrix {
         Scanner scan2 = new Scanner(System.in);
         String NamaFile = scan2.next();
         try {
-            FileWriter writer = new FileWriter(NamaFile+".txt");
+            FileWriter writer = new FileWriter("../test/"+NamaFile+".txt");
             writer.write("Hasil adalah " + Double.toString(det));
             System.out.println("File disimpan di " + NamaFile + ".txt");
             writer.close();
