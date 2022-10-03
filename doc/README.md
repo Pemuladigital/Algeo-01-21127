@@ -18,6 +18,10 @@ Untuk menjalankan program, pertama kita compile dan run program file main.java u
 Setelah program di run dalam file main.javanya, akan muncul menu utama. Di dalam menu utama, 
 terdapat 7 pilihan. Masukkan input pilihan sesuai dengan pilihan yang diinginkan untuk dicari solusinya.
 
+# Pilihan input
+Saat memilih salah satu pilihan dalam menu utama, terdapat bagian pilihan input setelah pengguna menentukan pilihan mana beserta pilihan metode yang digunakan.
+Masukkan input terdiri dari 2 jenis yaitu keyboard, dan berupa file txt yang berisi data input yang ingin dimasukkan. Berikut contoh input menggunakan keyboard dan menggunakan file.
+
 
 # 1. Sistem Persamaan Linier
 Ketika memasukkan input 1 dalam menu utama, pengguna akan masuk ke bagian sistem persamaan linier.
@@ -46,12 +50,11 @@ dirumuskan hasil interpolasi f(x,y)nya dan diminta input nilai x dan y yang ingi
 # 7. Keluar
 Apabila pengguna ingin keluar dari program, masukan input pilihan 7 dalam menu utama untuk mengeksekusi exit atau keluar dari program.
 
-# Pilihan input
 # Penyimpanan data
 Dari ketujuh pilihan dalam menu utama selain pilihan keluar, setelah program menunjukkan hasil output dari suatu input yang pengguna berikan, hasil tersebut 
 dapat disimpan dalam sebuah file txt. Program akan menanyakan apakah hasil output dari input pengguna ingin disimpan ke dalam file atau tidak. Jika iya, maka pengguna diminta memberikan nama file (tanpa .txt nya) sebagai nama file yang menyimpan hasil output dari suatu matriks input yang telah diberikan pengguna tersebut.
 # Kontributor
 Program ini dibuat untuk memenuhi tugas besar materi kuliah Aljabar Geometri Teknik Informatika ITB. Berikut pembuat dari program ini:
-	- Marcel Ryan - 13521127
-	- Raynard Tanadi - 13521143
-	- Kenneth Dave Bahana - 13521145
+- Marcel Ryan         - 13521127
+- Raynard Tanadi      - 13521143
+- Kenneth Dave Bahana - 13521145
