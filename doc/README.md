@@ -42,11 +42,17 @@ Pilihan 3 akan menghasilkan matriks balikan atau inverse dari suatu input matrik
 
 # 4. Interpolasi Polinom
 Ketika memilih 4 dalam menu utama, sub menu dalam menentukan input berupa 
+
 # 5. Interpolasi Bicubic
 Untuk interpolasi bikubik pertama inputkan sebuah matriks 4x4 yang setiap elemennya berisi nilai f(x,y) dari x dan y bernilai -1 hingga 2. Kemudian setelah itu akan
 dirumuskan hasil interpolasi f(x,y)nya dan diminta input nilai x dan y yang ingin diuji dari f(x,y) yang telah dibentuk. Berikut adalah contoh sebuah input untuk mencari hasil interpolasi bikubiknya pada sebuah titik.
 
 # 6. Regresi linier berganda
+Untuk Regresi Linear Berganda pertama-tama kita input terlebih dahulu jumlah peubah pada data yang kita punya, kemudian kita input jumlah sampel data yang kita punya, barulah kita menginput sampel-sampel data yang kita miliki. Terakhir setelah menginput sampel-sampel data yang kita punya, kita input nilai-nilai peubah yang ingin kita ketahui hasil regresinya. 
+
+![RegLin](https://user-images.githubusercontent.com/88817627/193574665-3e00d314-7a54-491e-ac31-0d1998453582.png)
+
+
 # 7. Keluar
 Apabila pengguna ingin keluar dari program, masukan input pilihan 7 dalam menu utama untuk mengeksekusi exit atau keluar dari program.
 
