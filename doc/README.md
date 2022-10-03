@@ -25,11 +25,13 @@ Sistem persamaan linier dapat memberikan solusi berupa nilai variabel-variabel d
 Gauss,Gauss Jordan, Matriks balikan, dan kaidah cramer. Input yang dimasukkan ke dalam sistem persamaan linier ini berupa 
 
 
+![SPL](https://user-images.githubusercontent.com/110378747/193562585-c726b96b-dee7-4540-b21e-b5e1ef7af3dc.PNG)
 
 
 # 2. Determinan
 Pilihan 2 dalam menu utama akan menghasilkan nilai determinan dari suatu input yang berupa matriks. Matriks yang dimasukkan dalam input ini juga sudah memiliki
 prekondisi berbentuk kotak, yaitu baris dan kolomnya berjumlah sama. Setelah memilih pilihan 2, terdapat sub-menu untuk metode yang digunakan apakah menggunakan ekspansi kofaktor atau menggunakan metode operasi baris elementer. Berikut adalah contoh sebuah input matriks yang ingin dicari determinannya.
+
 
 # 3. Matriks balikan
 Pilihan 3 akan menghasilkan matriks balikan atau inverse dari suatu input matriks. Setelah memilih pilihan ini, pengguna akan ditunjukkan sub-menu untuk menentukan metode yang ingin digunakan dalam mencari matriks balikan berupa metode Adjoin dan Kofaktor atau Eliminasi Gauss-Jordan. Berikut contoh sebuah input matriks yang ingin dicari matriks balikannya.
@@ -37,14 +39,17 @@ Pilihan 3 akan menghasilkan matriks balikan atau inverse dari suatu input matrik
 # 4. Interpolasi Polinom
 Ketika memilih 4 dalam menu utama, sub menu dalam menentukan input berupa 
 # 5. Interpolasi Bicubic
-Untuk interpolasi bikubik, pertama sub menu akan meminta input berupa keyboard atau file. Jika berupa keyboard, pertama inputkan
-langsung sebuah matriks 4x4 yang setiap elemennya berisi nilai f(x,y) dari x dan y bernilai -1 hingga 2. Kemudian setelah itu akan
+Untuk interpolasi bikubik pertama inputkan sebuah matriks 4x4 yang setiap elemennya berisi nilai f(x,y) dari x dan y bernilai -1 hingga 2. Kemudian setelah itu akan
 dirumuskan hasil interpolasi f(x,y)nya dan diminta input nilai x dan y yang ingin diuji dari f(x,y) yang telah dibentuk. Berikut adalah contoh sebuah input untuk mencari hasil interpolasi bikubiknya pada sebuah titik.
 
 # 6. Regresi linier berganda
 # 7. Keluar
 Apabila pengguna ingin keluar dari program, masukan input pilihan 7 dalam menu utama untuk mengeksekusi exit atau keluar dari program.
 
+# Pilihan input
+# Penyimpanan data
+Dari ketujuh pilihan dalam menu utama selain pilihan keluar, setelah program menunjukkan hasil output dari suatu input yang pengguna berikan, hasil tersebut 
+dapat disimpan dalam sebuah file txt. Program akan menanyakan apakah hasil output dari input pengguna ingin disimpan ke dalam file atau tidak. Jika iya, maka pengguna diminta memberikan nama file (tanpa .txt nya) sebagai nama file yang menyimpan hasil output dari suatu matriks input yang telah diberikan pengguna tersebut.
 # Kontributor
 Program ini dibuat untuk memenuhi tugas besar materi kuliah Aljabar Geometri Teknik Informatika ITB. Berikut pembuat dari program ini:
 	- Marcel Ryan - 13521127
