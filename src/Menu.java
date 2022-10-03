@@ -412,9 +412,17 @@ class Menu {
             System.out.println();
             System.out.println("Apakah ingin mengulang operasi lain? (y/n)");
             char ulang = scan.next().charAt(0);
-            if (ulang != 'y' && ulang != 'Y') {
-                masihrun = false;
-                System.out.println("Terima kasih telah menggunakan program kami (:");
+            while (ulang != 'y' && ulang != 'Y') {
+                if (ulang == 'n' || ulang == 'N') {
+                    masihrun = false;
+                    System.out.println("Terima kasih telah menggunakan program kami (:");
+                    break;
+                }
+                else if (ulang == 'y' || ulang == 'Y') {
+                    break;
+                }
+                System.out.println("Masukan tidak valid!");
+                ulang = scan.next().charAt(0);
             }
         }
     }
