@@ -409,8 +409,8 @@ public class Matrix {
             for (i = 0; i < this.baris; i++){
                 for (j = 0; j < this.kolom; j++){
                     System.out.printf("%.3f   ", this.matrix[i][j]);
-                    System.out.print("\n");
                 }
+                System.out.print("\n");
             }
         }
         if (det == 0){
