@@ -41,7 +41,9 @@ prekondisi berbentuk kotak, yaitu baris dan kolomnya berjumlah sama. Setelah mem
 Pilihan 3 akan menghasilkan matriks balikan atau inverse dari suatu input matriks. Setelah memilih pilihan ini, pengguna akan ditunjukkan sub-menu untuk menentukan metode yang ingin digunakan dalam mencari matriks balikan berupa metode Adjoin dan Kofaktor atau Eliminasi Gauss-Jordan. Berikut contoh sebuah input matriks yang ingin dicari matriks balikannya.
 
 # 4. Interpolasi Polinom
-Ketika memilih 4 dalam menu utama, sub menu dalam menentukan input berupa 
+Untuk interpolasi polinom, pertama - tama input jumlah titik yang akan dimasukkan, lalu masukkan sample titiknya, dan setelah didapatkan rumusnya, masukkan x yang ingin diuji, dan x tersebut pun akan dimasukkan ke rumus yang sudah ada secara otomatis dan akan menghasilkan hasil.
+![1664800443079](https://user-images.githubusercontent.com/92111319/193578081-d70965e2-6424-4a59-9529-b278a87932fe.jpg)
+
 
 # 5. Interpolasi Bicubic
 Untuk interpolasi bikubik pertama inputkan sebuah matriks 4x4 yang setiap elemennya berisi nilai f(x,y) dari x dan y bernilai -1 hingga 2. Kemudian setelah itu akan
