@@ -75,6 +75,8 @@ Dari ketujuh pilihan dalam menu utama selain pilihan keluar, setelah program men
 dapat disimpan dalam sebuah file txt. Program akan menanyakan apakah hasil output dari input pengguna ingin disimpan ke dalam file atau tidak. Jika iya, maka pengguna diminta memberikan nama file (tanpa .txt nya) sebagai nama file yang menyimpan hasil output dari suatu matriks input yang telah diberikan pengguna tersebut. 
 Berikut contoh hasil mengeksekusi interpolasi bikubik dan penyimpanan hasilnya.
 ![save](https://user-images.githubusercontent.com/110378747/193583153-15ae84c0-37ba-4235-992a-362291d04421.PNG)
+ 
+ 
 Isi file penyimpanan seperti berikut untuk contoh interpolasi bikubik. Setiap pilihan pada menu memiliki cara penyimpanan yang berbeda - beda sesuai output yang dihasilkannya.
 ![ssa](https://user-images.githubusercontent.com/110378747/193583171-fea7b2e5-3001-498a-9675-9dd1cfd60337.PNG)
 
