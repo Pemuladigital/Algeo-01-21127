@@ -204,6 +204,8 @@ class Menu {
                         Matrix mat = new Matrix(Matrix.FileBaris(NamaFile), Matrix.FileKolom(NamaFile));
                         mat.ReadMatrixFile(NamaFile);
                         double hasil = mat.determinan();
+                        System.out.format("Nilai Determinan dari Matrix tersebut adalah %.3f\n", hasil);
+                        System.out.print("\n");
                         mat.konfirmasiOutputFile(2,hasil,null);
                     }
                     else if (carainput == 1) {
@@ -215,6 +217,7 @@ class Menu {
                         mat.readMatrix();
                         double hasil = mat.determinan();
                         System.out.format("Nilai Determinan dari Matrix tersebut adalah %.3f\n", hasil);
+                        System.out.print("\n");
                         mat.konfirmasiOutputFile(2,hasil,null);
                     }
                     else {
@@ -229,6 +232,8 @@ class Menu {
                         Matrix mat = new Matrix(Matrix.FileBaris(NamaFile), Matrix.FileKolom(NamaFile));
                         mat.ReadMatrixFile(NamaFile);
                         double hasil = mat.determinanKofaktor();
+                        System.out.format("Nilai Determinan dari Matrix tersebut adalah %.3f", hasil);
+                        System.out.print("\n");
                         mat.konfirmasiOutputFile(2,hasil,null);
                     }
                     else if (carainput == 1) {
@@ -240,6 +245,7 @@ class Menu {
                         mat.readMatrix();
                         double hasil = mat.determinanKofaktor();
                         System.out.format("Nilai Determinan dari Matrix tersebut adalah %.3f", hasil);
+                        System.out.print("\n");
                         mat.konfirmasiOutputFile(2,hasil,null);
                     }
                     else {
