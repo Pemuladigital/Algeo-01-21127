@@ -89,6 +89,6 @@ Isi file penyimpanan seperti berikut untuk contoh interpolasi bikubik. Setiap pi
 
 # Kontributor
 Program ini dibuat untuk memenuhi tugas besar materi kuliah Aljabar Geometri Teknik Informatika ITB. Berikut pembuat dari program ini:
-- Marcel Ryan         - 13521127
+- Marcel Ryan Antony  - 13521127
 - Raynard Tanadi      - 13521143
 - Kenneth Dave Bahana - 13521145
