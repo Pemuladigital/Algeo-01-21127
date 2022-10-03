@@ -2,3 +2,8 @@
 
 Program ini adalah sebuah perpustakaan aljabar geometri yang berisi metode eliminasi Gauss, Gauss Jordan, SPL, Ekspansi Kofaktor, Interpolasi Polinom, Interpolasi Bikubik, 
 dan Regresi Linier
+
+
+
+# Cara Kompilasi Kode Program
+Untuk mengompilasi kode program, buka terminal pada komputer dan pergi ke directory dan
