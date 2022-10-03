@@ -554,7 +554,7 @@ public class Matrix {
                     count++;
                 }
             }
-            if (count == this.kolom-1 && this.matrix[i][this.kolom-1] != 0) {
+            if ((count == this.kolom-1 && this.matrix[i][this.kolom-1] != 0) || (this.baris > this.kolom)) {
                 noSolusi = true;
                 break;
             }
