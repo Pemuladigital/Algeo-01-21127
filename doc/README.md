@@ -21,6 +21,8 @@ Untuk menjalankan program, pertama kita compile dan run program file main.java d
 Setelah program di run dalam file main.javanya, akan muncul menu utama. Di dalam menu utama, 
 terdapat 7 pilihan. Masukkan input pilihan sesuai dengan pilihan yang diinginkan untuk dicari solusinya.
 
+![Menu](https://user-images.githubusercontent.com/88817627/193584784-689af7c2-a378-4995-93ff-732d45f9e7b1.png)
+
 # Pilihan input
 Saat memilih salah satu pilihan dalam menu utama, terdapat bagian pilihan input setelah pengguna menentukan pilihan mana beserta pilihan metode yang digunakan.
 Masukkan input terdiri dari 2 jenis yaitu keyboard, dan berupa file txt yang berisi data input yang ingin dimasukkan. Berikut contoh input menggunakan keyboard dan menggunakan file. Pertama, input menggunakan keyboard seperti contoh berikut.
