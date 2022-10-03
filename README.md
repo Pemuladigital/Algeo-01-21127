@@ -7,3 +7,7 @@ dan Regresi Linier
 
 # Cara Kompilasi Kode Program
 Untuk mengompilasi kode program, buka terminal pada komputer dan pergi ke directory dan
+
+#Cara Menjalankan Program
+
+Untuk menjalankan program, pertama kita run program file main.java sebagai menu utama menjalankan program. 
