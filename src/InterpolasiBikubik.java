@@ -129,7 +129,7 @@ public class InterpolasiBikubik extends Matrix {
         try {
             i = 0;
             j = 0;
-            File newFile = new File(NamaFile);
+            File newFile = new File("../test/"+NamaFile);
             Scanner scan2 = new Scanner(newFile);
             while (scan2.hasNextDouble()&& i<4){
                 this.matrix[i][j] = scan2.nextDouble();
@@ -153,7 +153,7 @@ public class InterpolasiBikubik extends Matrix {
         try {
             i = 0;
             j = 0;
-            File newFile = new File(NamaFile);
+            File newFile = new File("../test/"+NamaFile);
             Scanner scan2 = new Scanner(newFile);
             scan2.nextLine();
             scan2.nextLine();
@@ -203,4 +203,4 @@ public class InterpolasiBikubik extends Matrix {
         }*/
 
     }
-} 
+}
